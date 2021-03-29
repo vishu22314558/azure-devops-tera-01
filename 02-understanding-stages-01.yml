@@ -24,9 +24,6 @@ stages:
     - bash: mvn -version 
     - bash: ls -R $(Build.ArtifactStagingDirectory)
 
-trigger:
-- main
-
 # command + / - comment multiple lines in YAML
 # pool:
 #   vmImage: ubuntu-latest
